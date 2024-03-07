@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MainMenuTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: bfe950504d826a34faa8feb4f90b1d3e, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 7428965904431448113
+  m_TableData:
+  - m_Id: 52152061952
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144045068288
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197262397440
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4643623096320
+    m_Localized: 'Hello, {localizationManager.playerName}. Time passed: {textUpdator.timePassed}'
+    m_Metadata:
+      m_Items:
+      - rid: 7428965904431448113
+  references:
+    version: 2
+    RefIds:
+    - rid: 7428965904431448113
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0050812d39040000

@@ -1,12 +1,14 @@
 ﻿using System;
+using UnityEngine;
 
 namespace DataClasses
 {
+    [Serializable]
     public class ObservableValue<T>
     {
         public Action<T> onValueChagned;
 
-        private T _value;
+        [SerializeField] private T _value;
 
         public T value
         {

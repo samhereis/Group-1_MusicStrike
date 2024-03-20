@@ -28,15 +28,15 @@ MonoBehaviour:
   m_UseAssetBundleCache: 1
   m_UseAssetBundleCrc: 1
   m_UseAssetBundleCrcForCachedBundles: 1
-  m_UseUWRForLocalBundles: 0
-  m_Timeout: 0
+  m_UseUWRForLocalBundles: 1
+  m_Timeout: 25
   m_ChunkedTransfer: 0
   m_RedirectLimit: -1
   m_RetryCount: 0
   m_BuildPath:
-    m_Id: c3a8114909219354681645a8b8f28ef4
+    m_Id: d1dce5f9248e63c48bd555aa203e38e9
   m_LoadPath:
-    m_Id: 8bb65a45880a4c74f848e91857a2c6ac
+    m_Id: b845be07c6e849b4180a82af74e6acba
   m_BundleMode: 0
   m_AssetBundleProviderType:
     m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
